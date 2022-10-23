@@ -1,0 +1,159 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imagen-1{
+  width: 300px;
+  height: 300px;
+}
+
+.contenedor-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0px;
+}
+
+.card{
+  background-color: white;
+} */
+
+/* Nuevo Proyecto */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconBox{
+  grid-area: iconBox;
+}
+
+/* .container-quote1{
+  
+  grid-area: quote1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 2rem;
+  
+}
+
+.container-quote2{
+  grid-area: quote2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+ 
+} */
+
+/* .quote2-h4{
+  position: relative;
+  top: 120px;
+  right: -450px;
+} */
+
+/* .container-quote2>h4{
+  width: 100%;
+  
+} */
+
+.containerright{
+  grid-area: containerright;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 4rem;
+  position: absolute;
+  
+}
+
+.buttonright{
+  
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 145px;
+  right: -560px;
+  cursor: pointer;
+}
+
+.fa-quote-left{
+  font-size: 60px;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.arrow-right{
+  color: white;
+}
+
+
+.container-card{
+  background-color: white;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
+  width: 650px;
+  height: 210px;
+  display: grid;
+  grid-template-columns: repeat(2, 12% 88%);
+  grid-template-areas:
+  "iconBox container-quotebox"
+  ;
+  
+}
+
+.container-quotebox{
+  grid-area: container-quotebox;
+  width: 100%;
+  height: 100%;
+}
+
+.quotebox1{
+  grid-area: quotebox1;
+  height: 50%;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.quotebox2{
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  grid-area: quotebox2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50%;
+}
+
+
+
+
