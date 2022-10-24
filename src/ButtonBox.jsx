@@ -6,9 +6,9 @@ const ButtonBox = ({ actionButtonBox, colourButton }) => {
     return (
 
         <div className="containerright">
-            <i className="fa-solid fa-angle-right arrow-right buttonright"
+            <button className="fa-solid fa-angle-right arrow-right buttonright"
                 onClick={actionButtonBox}
-                style={{ background: `${colourButton}` }}></i>
+                style={{ background: `${colourButton}` }}></button>
             <div className="displayno">
                 <img src="https://i.postimg.cc/CL9ZTyxf/displayno300.png" alt="" />
             </div>
