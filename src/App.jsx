@@ -23,10 +23,10 @@ const App = () => {
 
   // Colores Random
   const colours = ["#0244f4", "#8559dd", "#dd303f", "#8efdb1", "#8eb82e",
-   "#0ecf17", "#67b9d2", "#476ee4", "#957db6", "#efb74a", "#c02ede", "#514c6e", 
-   "#e87109", "#0197a6", "#bba150", "#ed70cb", "#46e5e7", "#ae1453", "#4917df",
-  "#ffaf28", "#000000", "#9a2121", "#418557", "#f44336", "#222222", "#16537e",
-  "#905d5d", "#4d9385", "#00bfaf", "#fd8a5e", "#bbbbbb", "#beae9c", "#00563f"];
+    "#0ecf17", "#67b9d2", "#476ee4", "#957db6", "#efb74a", "#c02ede", "#514c6e",
+    "#e87109", "#0197a6", "#bba150", "#ed70cb", "#46e5e7", "#ae1453", "#4917df",
+    "#ffaf28", "#000000", "#9a2121", "#418557", "#f44336", "#222222", "#16537e",
+    "#905d5d", "#4d9385", "#00bfaf", "#fd8a5e", "#bbbbbb", "#beae9c", "#00563f"];
   const randomColours = Math.floor(Math.random() * colours.length);
 
   //Color Random al Body
@@ -51,6 +51,8 @@ const App = () => {
       <ButtonBox
         actionButtonBox={randomCard}
         colourButton={colours[randomColours]} />
+
+      
     </div>
   );
 

@@ -38,7 +38,7 @@ body{
 .container-card{
   background-color: white;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
-  width: 650px;
+  width: 42.5rem;
   height: 210px;
   display: grid;
   grid-template-columns: repeat(2, 12% 88%);
@@ -101,26 +101,31 @@ body{
   cursor: pointer;
 }
 
-/*MEDIA QUERY*/
+.displayno{
+  display: none;
+}
 
-@media (max-width: 650px){
+/*INICIO MEDIA QUERY*/
+
+@media (max-width: 680px){
 
   .container-card{
-    width: auto;
+    width: 100%;
   }
 
   .quotebox1{
     padding-left: 2rem;
   }
 
+  
 }
 
-@media (max-width: 320px){
+@media (max-width: 450px){
 
   .container-card{
     background-color: white;
     box-shadow: 3px 3px 10px rgb(0, 0, 0);
-    width: auto;
+    width:auto;
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 100%);
@@ -151,15 +156,42 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0;
+  padding-bottom: 2rem;
 }
+
 
 .quotebox1{
   height: fit-content;
 }
 
 .quotebox2{
-  padding-top: 3rem;
+  padding: 0;
+  padding-top: 2.5rem;
   padding-bottom: 0.5rem;
+  
 }
 
+
 }
+
+
+@media (max-width: 300px){
+
+  .containerright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
+
+.displayno{
+  display: block;
+}
+
+
+
+}
+
+/*FIN MEDIA QUERY*/
