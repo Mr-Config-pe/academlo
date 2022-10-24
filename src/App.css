@@ -110,7 +110,7 @@ body{
 @media (max-width: 680px){
 
   .container-card{
-    width: 100%;
+    width: calc(100vw - 50px);
   }
 
   .quotebox1{
@@ -125,7 +125,7 @@ body{
   .container-card{
     background-color: white;
     box-shadow: 3px 3px 10px rgb(0, 0, 0);
-    width:auto;
+    width: calc(100vw - 25px);
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 100%);
