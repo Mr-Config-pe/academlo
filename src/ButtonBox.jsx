@@ -14,7 +14,7 @@ const ButtonBox = ({ actionButtonBox, colourButton }) => {
                 <i className="fa-solid fa-angle-right arrow-right"></i>
             </button>
             <div className="displayno">
-                <img src="./src/assets/images/display-300.avif" alt="" />
+                <img src="./src/assets/images/display-300.png" alt="" />
             </div>
         </div>
 
