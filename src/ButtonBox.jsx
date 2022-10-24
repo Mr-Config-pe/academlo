@@ -6,13 +6,13 @@ const ButtonBox = ({ actionButtonBox, colourButton }) => {
     return (
 
         <div className="containerright">
-            <div
+            <button
                 className="buttonright"
                 onClick={actionButtonBox}
                 style={{ background: `${colourButton}` }}
             >
                 <i className="fa-solid fa-angle-right arrow-right"></i>
-            </div>
+            </button>
         </div>
 
     );
