@@ -4,6 +4,7 @@ import { useState } from "react";
 import quotes from "../quotes.json"
 import QuoteBox from "./QuoteBox";
 import ButtonBox from "./ButtonBox";
+import testPhoto from "./assets/images/author/kevin-kruse.jpg"
 
 // Inicio de la Funcion
 
@@ -33,16 +34,20 @@ const App = () => {
   document.body.style.background = colours[randomColours];
 
   return (
-    <div className="container-card" style={{ color: colours[randomColours] }}>
+
+    <div className="container-card" style={{ color: colours[randomColours], opacity: 0.9 }}>
       {/* Icono Comillas */}
+      <div className="container-img-author" style={{ background: colours[randomColours], opacity: 0.9 }}>
+        <img className="img-author" src={testPhoto} />
+      </div>
       <div className="iconBox">
         <i
           className="fa-solid fa-quote-left"
-          style={{ color: colours[randomColours] }}
+          style={{ color: colours[randomColours], opacity: 0.9 }}
         ></i>
       </div>
-      {/* Mensaje y Autor */}
 
+      {/* Mensaje y Autor */}
       <QuoteBox
         quotePhrase={quotes[indexQuote].quote}
         quoteAuthor={quotes[indexQuote].author} />
@@ -52,7 +57,7 @@ const App = () => {
         actionButtonBox={randomCard}
         colourButton={colours[randomColours]} />
 
-      
+
     </div>
   );
 
