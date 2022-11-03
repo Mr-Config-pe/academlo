@@ -35,7 +35,7 @@ const App = () => {
   //Color Random al Body
   document.body.style.background = colours[randomColours];
 
-  console.log(quotes)
+  // console.log(quotes)
   return (
     <div className="container-global">
     <div className="container-card" style={{ color: colours[randomColours], opacity: 0.9 }}>
