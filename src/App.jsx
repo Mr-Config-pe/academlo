@@ -42,7 +42,7 @@ const App = () => {
       {/* Icono Comillas */}
       <div className="container-450-author">
         <div className="container-img-author" style={{ background: colours[randomColours], opacity: 0.9 }}>
-          <img className="img-author" src={images[0]} />
+          <img className="img-author" src={images[indexQuote]} />
         </div>
       </div>
       <div className="iconBox">
