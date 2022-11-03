@@ -2,6 +2,7 @@
 import "./App.css";
 import { useState } from "react";
 import quotes from "../quotes.json"
+import images from "./assets/images/imgexp"
 import QuoteBox from "./QuoteBox";
 import ButtonBox from "./ButtonBox";
 import Redsocial from "./Redsocial";
@@ -41,7 +42,7 @@ const App = () => {
       {/* Icono Comillas */}
       <div className="container-450-author">
         <div className="container-img-author" style={{ background: colours[randomColours], opacity: 0.9 }}>
-          <img className="img-author" src={quotes[indexQuote].img} />
+          <img className="img-author" src={images[0]} />
         </div>
       </div>
       <div className="iconBox">
