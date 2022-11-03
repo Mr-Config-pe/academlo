@@ -1,410 +1,502 @@
 [
     {
       "quote": "Life isn’t about getting and having, it’s about giving and being.",
-      "author": "Kevin Kruse"
+      "author": "Kevin Kruse",
+      "img": "./src/assets/images/author/kevin-kruse.avif"
     },
     {
       "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
-      "author": "Napoleon Hill"
+      "author": "Napoleon Hill",
+      "img": "./src/assets/images/author/napoleon-hill.avif"
     },
     {
       "quote": "Strive not to be a success, but rather to be of value.",
-      "author": "Albert Einstein"
+      "author": "Albert Einstein",
+      "img": "./src/assets/images/author/albert-einstein.avif"
     },
     {
       "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
-      "author": "Robert Frost"
+      "author": "Robert Frost",
+      "img" : "./src/assets/images/author/robert-frost.avif"
     },
     {
       "quote": "I attribute my success to this: I never gave or took any excuse.",
-      "author": "Florence Nightingale"
+      "author": "Florence Nightingale",
+      "img" : "./src/assets/images/author/florence-nightingale.avif"
     },
     {
       "quote": "You miss 100% of the shots you don’t take.",
-      "author": "Wayne Gretzky"
+      "author": "Wayne Gretzky",
+      "img": "./src/assets/images/author/wayne-gretzky.avif"
     },
     {
-      "quote": "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
-      "author": "Michael Jordan"
+      "quote": "I've never been afraid to fail.",
+      "author": "Michael Jordan",
+      "img" : "./src/assets/images/author/michael-jordan.avif"
     },
     {
       "quote": "The most difficult thing is the decision to act, the rest is merely tenacity.",
-      "author": "Amelia Earhart"
+      "author": "Amelia Earhart",
+      "img" : "./src/assets/images/author/amelia-earhart.avif"
     },
     {
       "quote": "Every strike brings me closer to the next home run.",
-      "author": "Babe Ruth"
+      "author": "Babe Ruth",
+      "img" : "./src/assets/images/author/bebe-ruth.avif"
     },
     {
       "quote": "Definiteness of purpose is the starting point of all achievement.",
-      "author": "W. Clement Stone"
+      "author": "W. Clement Stone",
+      "img" : "./src/assets/images/author/w-clement-stone.avif"
     },
     {
       "quote": "We must balance conspicuous consumption with conscious capitalism.",
-      "author": "Kevin Kruse"
+      "author": "Kevin Kruse",
+      "img" : "./src/assets/images/author/kevin-kruse.avif"
     },
     {
       "quote": "Life is what happens to you while you’re busy making other plans.",
-      "author": "John Lennon"
+      "author": "John Lennon",
+      "img" : "./src/assets/images/author/john-lenon.avif"
     },
     {
       "quote": "We become what we think about.",
-      "author": "Earl Nightingale"
+      "author": "Earl Nightingale",
+      "img" : "./src/assets/images/author/earl-nightingale.avif"
     },
     {
-      "quote": "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
-      "author": "Mark Twain"
+      "quote": "A full belly is little worth where the mind is starved.",
+      "author": "Mark Twain",
+      "img" : "./src/assets/images/author/mark-twain.avif"
     },
     {
       "quote": "Life is 10% what happens to me and 90% of how I react to it.",
-      "author": "Charles Swindoll"
+      "author": "Charles Swindoll",
+      "img" : "./src/assets/images/author/charles-swindoll.avif"
     },
     {
       "quote": "The most common way people give up their power is by thinking they don’t have any.",
-      "author": "Alice Walker"
+      "author": "Alice Walker",
+      "img" : "./src/assets/images/author/alice-walker.avif"
     },
     {
       "quote": "The mind is everything. What you think you become.",
-      "author": "Buddha"
+      "author": "Buddha",
+      "img" : "./src/assets/images/author/buddha.avif"
     },
     {
       "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
-      "author": "Chinese Proverb"
+      "author": "Chinese Proverb",
+      "img" : "./src/assets/images/author/chinese-proverb.avif"
     },
     {
       "quote": "An unexamined life is not worth living.",
-      "author": "Socrates"
+      "author": "Socrates",
+      "img" : "./src/assets/images/author/socrates.avif"
     },
     {
       "quote": "Eighty percent of success is showing up.",
-      "author": "Woody Allen"
+      "author": "Woody Allen",
+      "img" : "./src/assets/images/author/woody-allen.avif"
     },
     {
       "quote": "Your time is limited, so don’t waste it living someone else’s life.",
-      "author": "Steve Jobs"
+      "author": "Steve Jobs",
+      "img" : "./src/assets/images/author/steve-jobs.avif"
     },
     {
       "quote": "Winning isn’t everything, but wanting to win is.",
-      "author": "Vince Lombardi"
+      "author": "Vince Lombardi",
+      "img" : "./src/assets/images/author/vince-lombardi.avif"
     },
     {
       "quote": "I am not a product of my circumstances. I am a product of my decisions.",
-      "author": "Stephen Covey"
+      "author": "Stephen Covey",
+      "img" : "./src/assets/images/author/stephen-covey.avif"
     },
     {
       "quote": "Every child is an artist.  The problem is how to remain an artist once he grows up.",
-      "author": "Pablo Picasso"
+      "author": "Pablo Picasso",
+      "img" : "./src/assets/images/author/pablo-picasso.avif"
     },
     {
       "quote": "You can never cross the ocean until you have the courage to lose sight of the shore.",
-      "author": "Christopher Columbus"
+      "author": "Christopher Columbus",
+      "img" : "./src/assets/images/author/christopher-columbus.avif"
     },
     {
-      "quote": "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
-      "author": "Maya Angelou"
+      "quote": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently",
+      "author": "Maya Angelou",
+      "img" : "./src/assets/images/author/maya-angelou.avif"
     },
     {
       "quote": "Either you run the day, or the day runs you.",
-      "author": "Jim Rohn"
+      "author": "Jim Rohn",
+      "img" : "./src/assets/images/author/jim-rohn.avif"
     },
     {
       "quote": "Whether you think you can or you think you can’t, you’re right.",
-      "author": "Henry Ford"
+      "author": "Henry Ford",
+      "img" : "./src/assets/images/author/henry-ford.avif"
     },
     {
       "quote": "The two most important days in your life are the day you are born and the day you find out why.",
-      "author": "Mark Twain"
+      "author": "Mark Twain",
+      "img" : "./src/assets/images/author/mark-twain.avif"
     },
     {
       "quote": "Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it.",
-      "author": "Johann Wolfgang von Goethe"
+      "author": "Johann Wolfgang von Goethe",
+      "img" : "./src/assets/images/author/johann-wolfgang.avif"
     },
     {
       "quote": "The best revenge is massive success.",
-      "author": "Frank Sinatra"
+      "author": "Frank Sinatra",
+      "img" : "./src/assets/images/author/frank-sinatra.avif"
     },
     {
       "quote": "People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily.",
-      "author": "Zig Ziglar"
+      "author": "Zig Ziglar",
+      "img" : "./src/assets/images/author/zig-ziglar.avif"
     },
     {
       "quote": "Life shrinks or expands in proportion to one’s courage.",
-      "author": "Anais Nin"
+      "author": "Anais Nin",
+      "img" : "./src/assets/images/author/anais-nin.avif"
     },
     {
       "quote": "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.",
-      "author": "Vincent Van Gogh"
+      "author": "Vincent Van Gogh",
+      "img" : "./src/assets/images/author/vincent-van-gogh.avif"
     },
     {
       "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-      "author": "Aristotle"
+      "author": "Aristotle",
+      "img" : "./src/assets/images/author/aristoteles.avif"
     },
     {
       "quote": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
-      "author": "Jesus"
+      "author": "Jesus",
+      "img" : "./src/assets/images/author/jesus.avif"
     },
     {
       "quote": "The only person you are destined to become is the person you decide to be.",
-      "author": "Ralph Waldo Emerson"
+      "author": "Ralph Waldo Emerson",
+      "img" : "./src/assets/images/author/ralph-waldo-emerson.avif"
     },
     {
       "quote": "Go confidently in the direction of your dreams.  Live the life you have imagined.",
-      "author": "Henry David Thoreau"
-    },
-    {
-      "quote": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
-      "author": "Erma Bombeck"
+      "author": "Henry David Thoreau",
+      "img" : "./src/assets/images/author/henry-david-thoreau.avif"
     },
     {
       "quote": "Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.",
-      "author": "Booker T. Washington"
+      "author": "Booker T. Washington",
+      "img" : "./src/assets/images/author/booker-washington.avif"
     },
     {
       "quote": "Certain things catch your eye, but pursue only those that capture the heart.",
-      "author": " Ancient Indian Proverb"
+      "author": " Ancient Indian Proverb",
+      "img" : "./src/assets/images/author/ancient-indian-proverb.avif"
     },
     {
       "quote": "Believe you can and you’re halfway there.",
-      "author": "Theodore Roosevelt"
+      "author": "Theodore Roosevelt",
+      "img" : "./src/assets/images/author/theodore-roosevelt.avif"
     },
     {
       "quote": "Everything you’ve ever wanted is on the other side of fear.",
-      "author": "George Addair"
+      "author": "George Addair",
+      "img" : "./src/assets/images/author/george-addair.avif"
     },
     {
       "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
-      "author": "Plato"
+      "author": "Platon",
+      "img" : "./src/assets/images/author/platon.avif"
     },
     {
       "quote": "Teach thy tongue to say, “I do not know,” and thous shalt progress.",
-      "author": "Maimonides"
+      "author": "Maimonides",
+      "img" : "./src/assets/images/author/maimonides.avif"
     },
     {
       "quote": "Start where you are. Use what you have.  Do what you can.",
-      "author": "Arthur Ashe"
+      "author": "Arthur Ashe",
+      "img" : "./src/assets/images/author/arthur-ashe.avif"
     },
     {
-      "quote": "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
-      "author": "John Lennon"
+      "quote": "You don't need anybody to tell you who you are or what you are. You are what you are!.",
+      "author": "John Lennon",
+      "img" : "./src/assets/images/author/john-lenon.avif"
     },
     {
       "quote": "Fall seven times and stand up eight.",
-      "author": "Japanese Proverb"
+      "author": "Japanese Proverb",
+      "img" : "./src/assets/images/author/japanese-proverb.avif"
     },
     {
       "quote": "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.",
-      "author": "Helen Keller"
+      "author": "Helen Keller",
+      "img" : "./src/assets/images/author/helen-keller.avif"
     },
     {
       "quote": "Everything has beauty, but not everyone can see.",
-      "author": "Confucius"
+      "author": "Confucius",
+      "img" : "./src/assets/images/author/confucius.avif"
     },
     {
       "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
-      "author": "Anne Frank"
+      "author": "Anne Frank",
+      "img" : "./src/assets/images/author/anne-frank.avif"
     },
     {
       "quote": "When I let go of what I am, I become what I might be.",
-      "author": "Lao Tzu"
+      "author": "Lao Tzu",
+      "img" : "./src/assets/images/author/lao-tzu.avif"
     },
     {
       "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
-      "author": "Maya Angelou"
+      "author": "Maya Angelou",
+      "img" : "./src/assets/images/author/maya-angelou.avif"
     },
     {
       "quote": "Happiness is not something readymade.  It comes from your own actions.",
-      "author": "Dalai Lama"
+      "author": "Dalai Lama",
+      "img" : "./src/assets/images/author/dalai-lama.avif"
     },
     {
       "quote": "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.",
-      "author": "Sheryl Sandberg"
+      "author": "Sheryl Sandberg",
+      "img" : "./src/assets/images/author/sheryl-sandberg.avif"
     },
     {
-      "quote": "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.",
-      "author": "Aristotle"
-    },
-    {
-      "quote": "If the wind will not serve, take to the oars.",
-      "author": "Latin Proverb"
+      "quote": "Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
+      "author": "Aristotle",
+      "img" : "./src/assets/images/author/aristoteles.avif"
     },
     {
       "quote": "You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.",
-      "author": "Unknown"
+      "author": "Unknown",
+      "img" : "./src/assets/images/author/unknown.avif"
     },
     {
       "quote": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
-      "author": "Marie Curie"
+      "author": "Marie Curie",
+      "img" : "./src/assets/images/author/marie-curie.avif"
     },
     {
       "quote": "Too many of us are not living our dreams because we are living our fears.",
-      "author": "Les Brown"
+      "author": "Les Brown",
+      "img" : "./src/assets/images/author/les-brown.avif"
     },
     {
       "quote": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
-      "author": "Joshua J. Marine"
+      "author": "Joshua J. Marine",
+      "img" : "./src/assets/images/author/joshua-marine.avif"
     },
     {
       "quote": "If you want to lift yourself up, lift up someone else.",
-      "author": "Booker T. Washington"
+      "author": "Booker T. Washington",
+      "img" : "./src/assets/images/author/booker-washington.avif"
     },
     {
       "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
-      "author": "Leonardo da Vinci"
+      "author": "Leonardo da Vinci",
+      "img" : "./src/assets/images/author/leonardo-da-vinci.avif"
     },
     {
       "quote": "Limitations live only in our minds.  But if we use our imaginations, our possibilities become limitless.",
-      "author": "Jamie Paolinetti"
+      "author": "Jamie Paolinetti",
+      "img" : "./src/assets/images/author/jamie-paolinetti.avif"
     },
     {
       "quote": "You take your life in your own hands, and what happens? A terrible thing, no one to blame.",
-      "author": "Erica Jong"
+      "author": "Erica Jong",
+      "img" : "./src/assets/images/author/erica-jong.avif"
     },
     {
       "quote": "What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
-      "author": "Bob Dylan"
+      "author": "Bob Dylan",
+      "img" : "./src/assets/images/author/bob-dylan.avif"
     },
     {
       "quote": "I didn’t fail the test. I just found 100 ways to do it wrong.",
-      "author": "Benjamin Franklin"
+      "author": "Benjamin Franklin",
+      "img" : "./src/assets/images/author/benjamin-franklin.avif"
     },
     {
       "quote": "In order to succeed, your desire for success should be greater than your fear of failure.",
-      "author": "Bill Cosby"
+      "author": "Bill Cosby",
+      "img" : "./src/assets/images/author/bill-cosby.avif"
     },
     {
       "quote": "A person who never made a mistake never tried anything new.",
-      "author": " Albert Einstein"
+      "author": " Albert Einstein",
+      "img" : "./src/assets/images/author/albert-einstein.avif"
     },
     {
       "quote": "The person who says it cannot be done should not interrupt the person who is doing it.",
-      "author": "Chinese Proverb"
+      "author": "Chinese Proverb",
+      "img" : "./src/assets/images/author/chinese-proverb.avif"
     },
     {
       "quote": "There are no traffic jams along the extra mile.",
-      "author": "Roger Staubach"
+      "author": "Roger Staubach",
+      "img" : "./src/assets/images/author/roger-staubach.avif"
     },
     {
       "quote": "It is never too late to be what you might have been.",
-      "author": "George Eliot"
+      "author": "George Eliot",
+      "img" : "./src/assets/images/author/george-eliot.avif"
     },
     {
       "quote": "You become what you believe.",
-      "author": "Oprah Winfrey"
+      "author": "Oprah Winfrey",
+      "img" : "./src/assets/images/author/oprah-winfrey.avif"
     },
     {
       "quote": "I would rather die of passion than of boredom.",
-      "author": "Vincent van Gogh"
+      "author": "Vincent van Gogh",
+      "img" : "./src/assets/images/author/vincent-van-gogh.avif"
     },
     {
       "quote": "A truly rich man is one whose children run into his arms when his hands are empty.",
-      "author": "Unknown"
+      "author": "Unknown",
+      "img" : "./src/assets/images/author/unknown.avif"
     },
     {
       "quote": "It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.",
-      "author": "Ann Landers"
+      "author": "Ann Landers",
+      "img" : "./src/assets/images/author/ann-landers.avif"
     },
     {
       "quote": "If you want your children to turn out well, spend twice as much time with them, and half as much money.",
-      "author": "Abigail Van Buren"
+      "author": "Abigail Van Buren",
+      "img" : "./src/assets/images/author/abigail-van-buren.avif"
     },
     {
       "quote": "Build your own dreams, or someone else will hire you to build theirs.",
-      "author": "Farrah Gray"
+      "author": "Farrah Gray",
+      "img" : "./src/assets/images/author/farrah-gray.avif"
     },
     {
       "quote": "The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.",
-      "author": "Jesse Owens"
+      "author": "Jesse Owens",
+      "img" : "./src/assets/images/author/jesse-owens.avif"
     },
     {
       "quote": "Education costs money.  But then so does ignorance.",
-      "author": "Sir Claus Moser"
+      "author": "Sir Claus Moser",
+      "img" : "./src/assets/images/author/sir-claus-moser.avif"
     },
     {
       "quote": "I have learned over the years that when one’s mind is made up, this diminishes fear.",
-      "author": "Rosa Parks"
+      "author": "Rosa Parks",
+      "img" : "./src/assets/images/author/rosa-parks.avif"
     },
     {
       "quote": "It does not matter how slowly you go as long as you do not stop.",
-      "author": "Confucius"
+      "author": "Confucius",
+      "img" : "./src/assets/images/author/confucius.avif"
     },
     {
       "quote": "If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
-      "author": "Oprah Winfrey"
+      "author": "Oprah Winfrey",
+      "img" : "./src/assets/images/author/oprah-winfrey.avif"
     },
     {
       "quote": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
-      "author": "Dalai Lama"
+      "author": "Dalai Lama",
+      "img" : "./src/assets/images/author/dalai-lama.avif"
     },
     {
       "quote": "You can’t use up creativity.  The more you use, the more you have.",
-      "author": "Maya Angelou"
+      "author": "Maya Angelou",
+      "img" : "./src/assets/images/author/maya-angelou.avif"
     },
     {
       "quote": "Dream big and dare to fail.",
-      "author": "Norman Vaughan"
+      "author": "Norman Vaughan",
+      "img" : "./src/assets/images/author/norman-vaughan.avif"
     },
     {
       "quote": "Our lives begin to end the day we become silent about things that matter.",
-      "author": "Martin Luther King Jr."
+      "author": "Martin Luther King Jr.",
+      "img" : "./src/assets/images/author/martin-luther-king.avif"
     },
     {
       "quote": "Do what you can, where you are, with what you have.",
-      "author": "Teddy Roosevelt"
+      "author": "Teddy Roosevelt",
+      "img" : "./src/assets/images/author/teddy-roosevelt.avif"
     },
     {
       "quote": "If you do what you’ve always done, you’ll get what you’ve always gotten.",
-      "author": "Tony Robbins"
+      "author": "Tony Robbins",
+      "img" : "./src/assets/images/author/tony-robbins.avif"
     },
     {
       "quote": "Dreaming, after all, is a form of planning.",
-      "author": "Gloria Steinem"
+      "author": "Gloria Steinem",
+      "img" : "./src/assets/images/author/gloria-steinem.avif"
     },
     {
       "quote": "It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.",
-      "author": "Mae Jemison"
+      "author": "Mae Jemison",
+      "img" : "./src/assets/images/author/mae-jemison.avif"
     },
     {
       "quote": "You may be disappointed if you fail, but you are doomed if you don’t try.",
-      "author": "Beverly Sills"
+      "author": "Beverly Sills",
+      "img" : "./src/assets/images/author/beverly-sills.avif"
     },
     {
       "quote": "Remember no one can make you feel inferior without your consent.",
-      "author": "Eleanor Roosevelt"
+      "author": "Eleanor Roosevelt",
+      "img" : "./src/assets/images/author/eleanor-roosevelt.avif"
     },
     {
       "quote": "Life is what we make it, always has been, always will be.",
-      "author": "Grandma Moses"
+      "author": "Grandma Moses",
+      "img" : "./src/assets/images/author/grandma-moses.avif"
     },
     {
       "quote": "The question isn’t who is going to let me; it’s who is going to stop me.",
-      "author": "Ayn Rand"
+      "author": "Ayn Rand",
+      "img" : "./src/assets/images/author/ayn-rand.avif"
     },
     {
       "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
-      "author": "Henry Ford"
+      "author": "Henry Ford",
+      "img" : "./src/assets/images/author/henry-ford.avif"
     },
     {
       "quote": "It’s not the years in your life that count. It’s the life in your years.",
-      "author": "Abraham Lincoln"
+      "author": "Abraham Lincoln",
+      "img" : "./src/assets/images/author/abraham-lincoln.avif"
     },
     {
       "quote": "Change your thoughts and you change your world.",
-      "author": "Norman Vincent Peale"
+      "author": "Norman Vincent Peale",
+      "img" : "./src/assets/images/author/norman-vincent-peale.avif"
     },
     {
       "quote": "Either write something worth reading or do something worth writing.",
-      "author": "Benjamin Franklin"
+      "author": "Benjamin Franklin",
+      "img" : "./src/assets/images/author/benjamin-franklin.avif"
     },
     {
       "quote": "Nothing is impossible, the word itself says, “I’m possible!”",
-      "author": "–Audrey Hepburn"
+      "author": "Audrey Hepburn",
+      "img" : "./src/assets/images/author/audrey-hepburn.avif"
     },
     {
       "quote": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs"
+      "author": "Steve Jobs",
+      "img" : "./src/assets/images/author/steve-jobs.avif"
     },
     {
       "quote": "If you can dream it, you can achieve it.",
-      "author": "Zig Ziglar"
+      "author": "Zig Ziglar",
+      "img" : "./src/assets/images/author/zig-ziglar.avif"
     }
   ]

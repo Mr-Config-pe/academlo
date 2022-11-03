@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body{
@@ -31,15 +32,18 @@ body{
   padding-right: 0.5rem;
 }
 
+.container-450-author{
+  grid-area: img-author;
+  height: 100%;
+}
+
 .container-img-author{
   height: 100%;
-  grid-area: img-author;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-right: 1px solid #ddd;
-
 }
 
 .img-author{
@@ -60,7 +64,6 @@ body{
   color: white;
 }
 
-
 .container-card{
   background-color: white;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
@@ -72,7 +75,6 @@ body{
   "img-author iconBox container-quotebox"
   "img-author iconBox containerright"
   ;
-  
 }
 
 .container-quotebox{
@@ -109,11 +111,9 @@ body{
   padding-right: 3rem;
   padding-bottom: 0.5rem;
   /* position: absolute; */
-  
 }
 
 .buttonright{
-  
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -131,16 +131,37 @@ body{
   display: none;
 }
 
+.container-redsocial{
+  position: absolute;
+  width: 42.5rem;
+  bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px;
+  
+}
+
+.by-immer{
+  color: rgb(255, 255, 255, 0.8);
+  cursor: pointer;
+  font-weight: bold;
+}
+
 /*INICIO MEDIA QUERY*/
 
 @media (max-width: 680px){
 
   .container-card{
     width: calc(100vw - 50px);
+    grid-template-columns: repeat(3, 25% 13% 62%);
   }
 
   .quotebox1{
     padding-left: 2rem;
+  }
+
+  .container-redsocial{
+    width: calc(100vw - 50px);
   }
 
   
@@ -158,9 +179,24 @@ body{
     grid-template-areas:
     "iconBox"
     "container-quotebox"
+    "img-author" 
     "containerright"
     ;
 
+}
+
+.container-img-author{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.container-450-author{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0px;
 }
 
 .iconBox{
@@ -198,6 +234,10 @@ body{
   
 }
 
+.container-redsocial{
+  width: calc(100vw - 25px);
+}
+
 
 }
 
@@ -216,7 +256,9 @@ body{
   display: block;
 }
 
-
+.container-redsocial{
+  display: none;
+}
 
 }
 

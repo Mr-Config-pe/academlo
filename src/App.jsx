@@ -4,7 +4,8 @@ import { useState } from "react";
 import quotes from "../quotes.json"
 import QuoteBox from "./QuoteBox";
 import ButtonBox from "./ButtonBox";
-import testPhoto from "./assets/images/author/kevin-kruse.jpg"
+import Redsocial from "./Redsocial";
+// import testPhoto from "./assets/images/author"
 
 // Inicio de la Funcion
 
@@ -33,12 +34,15 @@ const App = () => {
   //Color Random al Body
   document.body.style.background = colours[randomColours];
 
+  console.log(quotes)
   return (
-
+    <div className="container-global">
     <div className="container-card" style={{ color: colours[randomColours], opacity: 0.9 }}>
       {/* Icono Comillas */}
-      <div className="container-img-author" style={{ background: colours[randomColours], opacity: 0.9 }}>
-        <img className="img-author" src={testPhoto} />
+      <div className="container-450-author">
+        <div className="container-img-author" style={{ background: colours[randomColours], opacity: 0.9 }}>
+          <img className="img-author" src={quotes[indexQuote].img} />
+        </div>
       </div>
       <div className="iconBox">
         <i
@@ -56,8 +60,10 @@ const App = () => {
       <ButtonBox
         actionButtonBox={randomCard}
         colourButton={colours[randomColours]} />
-
-
+    </div>
+    <div className="container-redsocial">
+      <Redsocial />
+    </div>
     </div>
   );
 
