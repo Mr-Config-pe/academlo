@@ -7,37 +7,37 @@
 
 /* Proyect1 - React - By Immer */
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-body{
+body {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.container-iconBox{
+.container-iconBox {
   width: 100%;
   text-align: end;
   padding-right: 0.5rem;
 }
 
-.iconBox{
+.iconBox {
   grid-area: iconBox;
   text-align: end;
   padding-right: 0.5rem;
 }
 
-.container-450-author{
+.container-450-author {
   grid-area: img-author;
   height: 100%;
 }
 
-.container-img-author{
+.container-img-author {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -46,25 +46,24 @@ body{
   border-right: 1px solid #ddd;
 }
 
-.img-author{
+.img-author {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   border: 3px solid #ddd;
 }
 
-
-.fa-quote-left{
+.fa-quote-left {
   font-size: 60px;
   padding-top: 0.5rem;
   padding-left: 1rem;
 }
 
-.arrow-right{
+.arrow-right {
   color: white;
 }
 
-.container-card{
+.container-card {
   background-color: white;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
   width: 42.5rem;
@@ -72,25 +71,24 @@ body{
   display: grid;
   grid-template-columns: repeat(3, 20% 13% 67%);
   grid-template-areas:
-  "img-author iconBox container-quotebox"
-  "img-author iconBox containerright"
-  ;
+    "img-author iconBox container-quotebox"
+    "img-author iconBox containerright";
 }
 
-.container-quotebox{
+.container-quotebox {
   grid-area: container-quotebox;
   width: 100%;
   height: 100%;
 }
 
-.quotebox1{
+.quotebox1 {
   height: 125px;
   padding-top: 1rem;
   padding-right: 2rem;
   text-align: center;
 }
 
-.quotebox2{
+.quotebox2 {
   padding-top: 0.5rem;
   padding-right: 2rem;
   grid-area: quotebox2;
@@ -101,7 +99,7 @@ body{
   height: 20px;
 }
 
-.containerright{
+.containerright {
   height: 100%;
   grid-area: containerright;
   display: flex;
@@ -113,7 +111,9 @@ body{
   /* position: absolute; */
 }
 
-.buttonright{
+/* Boton Circular - Cambio de Color */
+
+.buttonright {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -127,21 +127,29 @@ body{
   cursor: pointer;
 }
 
-.displayno{
+.buttonright:focus {
+  outline: none;
+  border: none;
+}
+
+.buttonright:active {
+  opacity: 50%;
+}
+
+.displayno {
   display: none;
 }
 
-.container-redsocial{
+.container-redsocial {
   position: absolute;
   width: 42.5rem;
   bottom: 50px;
   font-weight: bold;
   text-align: center;
   padding: 5px 10px;
-  
 }
 
-.by-immer{
+.by-immer {
   color: rgb(255, 255, 255, 0.8);
   cursor: pointer;
   font-weight: bold;
@@ -149,27 +157,29 @@ body{
 
 /*INICIO MEDIA QUERY*/
 
-@media (max-width: 680px){
-
-  .container-card{
+@media (max-width: 680px) {
+  .container-card {
     width: calc(100vw - 50px);
     grid-template-columns: repeat(3, 25% 13% 62%);
   }
 
-  .quotebox1{
+  .quotebox1 {
     padding-left: 2rem;
   }
 
-  .container-redsocial{
+  .container-redsocial {
     width: calc(100vw - 50px);
   }
-
-  
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
+  .container-global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  .container-card{
+  .container-card {
     background-color: white;
     box-shadow: 3px 3px 10px rgb(0, 0, 0);
     width: calc(100vw - 25px);
@@ -177,74 +187,69 @@ body{
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-areas:
-    "iconBox"
-    "container-quotebox"
-    "img-author" 
-    "containerright"
-    ;
+      "iconBox"
+      "container-quotebox"
+      "img-author"
+      "containerright";
+  }
 
+  .container-img-author {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+  }
+
+  .container-450-author {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0px;
+  }
+
+  .iconBox {
+    grid-area: iconBox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .container-quotebox {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .quotebox1 {
+    height: fit-content;
+  }
+
+  .quotebox2 {
+    padding: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .container-redsocial {
+    position: static;
+    padding: 20px 0;
+    background: #121212;
+    width: 100%;
+  }
 }
 
-.container-img-author{
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
-}
-
-.container-450-author{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem 0px;
-}
-
-.iconBox{
-  grid-area: iconBox;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container-quotebox{
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.containerright{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0;
-  padding-bottom: 2rem;
-}
-
-
-.quotebox1{
-  height: fit-content;
-}
-
-.quotebox2{
-  padding: 0;
-  padding-top: 2.5rem;
-  padding-bottom: 0.5rem;
-  
-}
-
-.container-redsocial{
-  width: calc(100vw - 25px);
-}
-
-
-}
-
-
-@media (max-width: 300px){
-
-  .containerright{
+@media (max-width: 300px) {
+  .containerright {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,14 +257,14 @@ body{
     width: 100%;
   }
 
-.displayno{
-  display: block;
-}
+  .displayno {
+    display: block;
+  }
 
-.container-redsocial{
-  display: none;
-}
-
+  .container-redsocial {
+    display: none;
+    /* margin-top: 200px; */
+  }
 }
 
 /*FIN MEDIA QUERY*/
