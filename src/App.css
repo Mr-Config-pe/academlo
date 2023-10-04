@@ -127,6 +127,10 @@ body {
   cursor: pointer;
 }
 
+.buttonright:hover {
+  border: none;
+}
+
 .buttonright:focus {
   outline: none;
   border: none;
